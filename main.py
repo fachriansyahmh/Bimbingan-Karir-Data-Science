@@ -9,6 +9,7 @@ import pickle
 from joblib import dump, load
 from sklearn.preprocessing import MinMaxScaler
 
+
 # Membuat perulangan untuk membaca dataset 1 baris/record
 with open("Dataset/hungarian.data", encoding='Latin1') as file:
   lines = [line.strip() for line in file]
